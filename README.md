@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+#HIVED Driver Feedback - Case Study
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+#Introduction
+This feedback web app can be used by the drivers of HIVED to quickly submit feedback about the recently finished delivery
+
+
+###Assumptions:
+The following assumptions were made at the start of the design and development to construct the app
+
+1) This app is the landing page for the driver when he clicks on the 'Provide Feedback' button from the existing HIVED Driver interface  
+2) The app is designed for Mobile views
+3) The color theme of the app was decided based on the looks of the HIVED customer apps displayed in the company's website
+4) The Mock data has been modified to include the status of the delivery to display on this web app
+
+###CI/CD Pipeling using Vercel
+1) Details about accessing the Vercel url
+
+## Extras to extend the app further (Scope for extensions)
+1) Drivers Uploading photos about disruptions in reaching the address
+2) Various response pages when the submission of the form returns errors
+3) Integration tests? ene-to-end tests?
+
 
 ## Available Scripts
 
@@ -39,32 +61,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
