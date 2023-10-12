@@ -7,23 +7,31 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This feedback web app can be used by the drivers of HIVED to quickly submit feedback about the recently finished delivery
 
 
-###Assumptions:
+##Assumptions:
 The following assumptions were made at the start of the design and development to construct the app
 
-1) This app is the landing page for the driver when he clicks on the 'Provide Feedback' button from the existing HIVED Driver interface  
-2) The app is designed for Mobile views
-3) The color theme of the app was decided based on the looks of the HIVED customer apps displayed in the company's website
-4) The Mock data has been modified to include the status of the delivery to display on this web app
+1) This app is the landing page for the driver when he/she clicks on the 'Provide Feedback' button from the existing HIVED Driver interface  
+2) The app is designed only for Mobile views
+3) It is assumed that the driver will be redirected to the Driver app interface upon successful submission of the feedback form
+ 
 
-###CI/CD Pipeling using Vercel
-1) Details about accessing the Vercel url
+##CI/CD Pipeling using Vercel
+1) The app is deployed in the cloud under vercel and can be access via the following link
+[hived-driver-feedback](hived-driver-feedback-gb8t6rk67-sapnasivakumar.vercel.app)
 
 ## Extras to extend the app further (Scope for extensions)
 1) Drivers Uploading photos about disruptions in reaching the address
-2) Various response pages when the submission of the form returns errors
-3) Integration tests? ene-to-end tests?
+2) Various response pages when the submission of the form returns errors. Examples could be network outages, and bad request to the servers on submission
+3) Extensive testing could be added to check the complete flow of the application 
+4) Can extend further by using i18n functions or react-intl to internationalize the app in order to serve multiple other locations  
 
-
+## Details about choices made
+1) Had chosen Material UI as it is said to be a "mobile-first component library" which suits our case study  
+2) Have chosen the feedback questions as an array assuming it can modified to suit the needs when we provide the request from the backend services to display the feedback form
+3) At this stage I've stored the mock data for the Delivery details and the feedback questions under the mockData file locally for ease of use
+4) The feedback questions have been displayed short and with switch toggles to effectively capture the driver's feedback in a quick manner
+  
+ 
 ## Available Scripts
 
 In the project directory, you can run:
