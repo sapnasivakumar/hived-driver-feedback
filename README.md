@@ -1,13 +1,13 @@
-#HIVED Driver Feedback - Case Study
+# HIVED Driver Feedback - Case Study
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-#Introduction
+# Introduction
 This feedback web app can be used by the drivers of HIVED to quickly submit feedback about the recently finished delivery
 
 
-##Assumptions:
+## Assumptions:
 The following assumptions were made at the start of the design and development to construct the app
 
 1) This app is the landing page for the driver when he/she clicks on the 'Provide Feedback' button from the existing HIVED Driver interface  
@@ -15,9 +15,10 @@ The following assumptions were made at the start of the design and development t
 3) It is assumed that the driver will be redirected to the Driver app interface upon successful submission of the feedback form
  
 
-##CI/CD Pipeling using Vercel
+## CI/CD Pipeling using Vercel
 1) The app is deployed in the cloud under vercel and can be access via the following link
-[hived-driver-feedback](hived-driver-feedback-gb8t6rk67-sapnasivakumar.vercel.app)
+[Hived-Driver-Feedback-App](https://hived-driver-feedback-eugsk3rcl-sapnasivakumar.vercel.app/)
+
 
 ## Extras to extend the app further (Scope for extensions)
 1) Drivers Uploading photos about disruptions in reaching the address
